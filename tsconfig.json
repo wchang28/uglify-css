@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "sourceMap": true,
+      "declaration": true,
+      "resolveJsonModule": true,
+      "downlevelIteration": true,
+      "outDir": "./dist",
+      "watch": false,
+      "allowJs": true,
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable"
+      ]
+  },
+  "files": [
+    "./src/index.js"
+  ]
+}
